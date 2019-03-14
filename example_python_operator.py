@@ -44,6 +44,7 @@ dag = DAG(
 def print_context(ds, **kwargs):
     pprint(kwargs)
     print(ds)
+    time.sleep(1000)
     logging.info('testing the logging')
     return 'Whatever you return gets printed in the logs'
 
